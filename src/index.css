@@ -20,6 +20,15 @@ body {
 }
 
 header {
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
   font-family: "Poetsen one", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -28,7 +37,7 @@ header {
   margin: 5px;
   border-radius: 10px;
   /* background-image: url(weatherAppBackground.jpeg);*/
-  color: rgba(0, 0, 0, 0.8);
+  color: #fff;
 }
 
 .input-city {
@@ -42,7 +51,11 @@ header {
 }
 
 .search-button {
-  background: #5e5df0;
+  background: linear-gradient(
+    to top,
+    rgb(9, 32, 63) 0%,
+    rgb(83, 120, 149) 100%
+  );
   padding: 15px 30px;
   border: none;
   box-shadow: #5e5df0 0 10px 20px -10px;
@@ -51,6 +64,15 @@ header {
   margin-left: 5px;
   border-radius: 6px;
   color: white;
+  transition-duration: 200ms;
+}
+.search-button:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    to top,
+    rgb(9, 32, 63, 0.8) 0%,
+    rgb(83, 120, 149, 0.8) 100%
+  );
 }
 
 form {
