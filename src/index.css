@@ -1,0 +1,60 @@
+body {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+#container {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  display: block;
+  margin: 45px auto;
+  padding: 10px;
+  max-width: 700px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+header {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 15px 30px;
+  margin: 5px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.input-city {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 8px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 30px;
+  margin: 5px;
+}
+
+.search-button {
+  background: #5e5df0;
+  padding: 15px 30px;
+  border: none;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
+}
+
+form {
+  border-bottom: 1px solid #12101547;
+  padding: 0 0 15px 0;
+}
