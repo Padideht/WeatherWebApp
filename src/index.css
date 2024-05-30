@@ -83,6 +83,10 @@ strong {
   color: #f75282;
 }
 
+.icon-image {
+  width: 88px;
+  height: 88px;
+}
 .shown-temp {
   display: flex;
 }
